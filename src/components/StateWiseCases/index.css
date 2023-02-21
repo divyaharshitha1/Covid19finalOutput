@@ -1,0 +1,441 @@
+.main-container {
+  width: 100%;
+  min-height: 2759px;
+  background: #161625;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+.state-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.state-name-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.state-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 312px;
+  min-height: 64px;
+  left: 150px;
+  top: 144px;
+  background: rgba(2, 132, 199, 0.16);
+  border-radius: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  color: #0ea5e9;
+}
+.test-num-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+}
+.test-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #94a3b8;
+  padding: 0px;
+  margin: 0px;
+}
+.test-num {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: right;
+  color: #94a3b8;
+  padding: 0px;
+  margin: 0px;
+}
+.last-updated-date {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #cbd5e1;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+.state-specific-card-list {
+  list-style-type: none;
+  display: flex;
+}
+.card-list-item {
+  width: 250px;
+  height: 200px;
+  left: 150px;
+  top: 176px;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.Confirmed-color {
+  color: #ff073a;
+}
+.Active-color {
+  color: #007bff;
+}
+.Recovered-color {
+  color: #28a745;
+}
+.Deceased-color {
+  color: #6c757d;
+}
+.districts-list-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-list-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.state-image {
+  margin: 50px;
+  margin-left: 400px;
+}
+
+.content-num {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #94a3b8;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.districts-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.state-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.time-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bar-chart-lg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.daily-spread-trends {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #cbd5e1;
+}
+.trend-button {
+  width: 140px;
+  height: 40px;
+  background-color: #1c1c2b;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  color: #64748b;
+  cursor: pointer;
+}
+.highlight-trend {
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #e2e8f0;
+}
+.select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 16px;
+  gap: 12px;
+  height: 45px;
+  width: 300px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #2f2f43;
+  opacity: 0.5;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.select-element {
+  background-color: transparent;
+  width: 100%;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #6c757d;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+}
+.options-container {
+  background-color: #2f2f43;
+  color: #64748b;
+  border-radius: 12px;
+  border: none;
+}
+.graphs-container {
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chart-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 900px;
+}
+.tested-background {
+  width: 1146px;
+  height: 328px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #230f41;
+}
+.tested-title {
+  color: #9673b9;
+  margin-left: 900px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line-chart-mobile {
+  display: none;
+}
+.bar-chart-mobile {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+  }
+  .state-details {
+    padding-right: 20px;
+  }
+  .state-name-container {
+    width: 156px;
+    height: 32px;
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 50px;
+    margin-left: 20px;
+  }
+  .test-num-container {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+  }
+  .test-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .test-num {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .last-updated-date {
+    font-size: 12px;
+    line-height: 16px;
+    width: 80%;
+    padding-left: 20px;
+  }
+  .align-center-row {
+    padding-left: 20px;
+  }
+  .state-specific-card-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-list-item {
+    width: 140px;
+    height: 140px;
+    margin: 0px;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-content {
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .state-image {
+    width: 296px;
+    height: 329px;
+    margin: 0px;
+  }
+  .ncp-report {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .population-heading {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .content-num {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .district-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .districts-container {
+    margin-left: 20px;
+  }
+  .districts-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-dist-list-item {
+    width: 50%;
+  }
+
+  .top-dist-num {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .top-dist-name {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .bar-chart-lg {
+    display: none;
+  }
+  .graphs-lg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bar-chart-mobile {
+    margin-top: 20px;
+  }
+  .line-chart-lg {
+    display: none;
+  }
+  .line-chart-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+    height: 231px;
+    padding: 0px;
+  }
+  .chart-title {
+    margin-left: 150px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .tested-background {
+    width: 312px;
+    height: 231px;
+    padding: 0px;
+  }
+  .footer-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .options-container {
+    width: 200px;
+  }
+}

@@ -1,0 +1,48 @@
+.footer-logo {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #f8fafc;
+}
+.span-ele {
+  color: #3b82f6;
+}
+.footer-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #94a3b8;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.icons-container {
+  display: flex;
+}
+.footer-icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  color: #f8fafc;
+}
+@media screen and (max-width: 767px) {
+  .footer-logo {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer-text {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer-icon {
+    width: 22px;
+    height: 25px;
+  }
+}

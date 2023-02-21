@@ -1,0 +1,86 @@
+.charts-BarChart-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.charts-graph-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffff;
+}
+.lineCharts-graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.charts-graph-list-margin {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+.charts-graph-red {
+  background: #331427;
+}
+.charts-graph-blue {
+  background: #132240;
+}
+.charts-graph-green {
+  background: #182829;
+}
+.charts-graph-gray {
+  background: #1c1c2b;
+}
+.loading-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 600px;
+}
+.line-chart-mobile {
+  display: none;
+}
+.charts-BarChart-mobile {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .charts-BarChart-desktop {
+    display: none;
+  }
+  .charts-BarChart-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .line-chart-desktop {
+    display: none;
+  }
+  .charts-graph-list-margin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .lineCharts-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .charts-graph-heading {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  .loading-class {
+    padding-left: 150px;
+  }
+}

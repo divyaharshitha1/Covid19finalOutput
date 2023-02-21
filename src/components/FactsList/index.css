@@ -1,0 +1,9 @@
+.fact-list-item {
+  list-style: none;
+}
+.fact-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: red;
+}
